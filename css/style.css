@@ -43,6 +43,15 @@
     font-size: 20px;
     font-family: var(--bold-font);
     font-weight: 700;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid var(--light-text);
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.masthead__logo:hover,
+.masthead__logo:focus{
+    border-color: initial;
 }
 
 .masthead__list {
