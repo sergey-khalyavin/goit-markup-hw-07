@@ -18,6 +18,7 @@
 
 .masthead__banner {
     display: flex;
+    height: 700px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,10 +37,12 @@
     display: block;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
     text-decoration: none;
     color: var(--light-text);
     font-size: 20px;
     font-family: var(--bold-font);
+    font-weight: 700;
 }
 
 .masthead__list {
@@ -47,6 +50,7 @@
     padding: 0;
     display: inline-flex;
     font-family: var(--bold-font);
+    font-weight: 700;
 }
 
 .masthead__item {
@@ -106,7 +110,7 @@
 .button:hover,
 .button:focus {
     color: var(--red-color);
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: var(--light-text);
 }
 
 .section {
